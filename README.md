@@ -2,6 +2,8 @@
 
 Automatic code comment generation with ChatGPT and AIPRM.
 
+**Link :** https://app.aiprm.com/prompts/1802303337228656640 
+
 **Note :** You need the `AIPRM for ChatGPT` extension on your browser.
   
 ## How it works: 
