@@ -12,7 +12,7 @@ Copy-paste the code you want to comment on. You receive as output the commented 
   
 ## Description 
   
-  - Prompt Template : "Discard previous instructions. Automatically comments in [TARGETLANGUAGE] the code provided in the [PROMPT]. Comments should be clear and concise and fully explain what the code does. Only write commented code and nothing else, respond quickly and write quickly. Your answers are written in markdown format for the code. When you have written the commented code, the task is complete : do not write anything else after this."
+  - Prompt Template : "Discard previous instructions.  You are a senior computer developer and your task is to comment the code provided in  the [PROMPT] in markdown format for the code. You write in [TARGETLANGUAGE]. Code comments should be clear and concise and fully explain what the code does. Respond and write quickly. Remember : comment only in markdown format for the code, do not write anything else : juste the new code commented."  
   - Teaser : "Put any code to be commented in the language of your choice."
   - Prompt Hint : "[code to be commented]"
   - Title : "Code Comment Generation"
