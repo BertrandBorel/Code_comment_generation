@@ -8,11 +8,13 @@ Automatic code comment generation with ChatGPT and AIPRM.
   
 ## How it works: 
 Copy-paste the code you want to comment on. You receive as output the commented code in markdown code format. ChatGPT tells you what the code does, which can be useful for writing documentation, but can also waste your time. I'm trying to find a way to only output the commented code.
+  
+**Note :** Sometimes ChatGPT responds without the "code" format, I'm trying to fix this problem.
 
   
 ## Description 
   
-  - Prompt Template : "Discard previous instructions.  You are a senior computer developer and your task is to comment the code provided in  the [PROMPT] in markdown format for the code. You write in [TARGETLANGUAGE]. Code comments should be clear and concise and fully explain what the code does. Respond and write quickly. Remember : comment only in markdown format for the code, do not write anything else : juste the new code commented."  
+  - Prompt Template : "Discard previous instructions.  You are a senior computer developer and your task is to comment the code provided in  the [PROMPT] in markdown format for the code. You write in [TARGETLANGUAGE]. Code comments should be clear and concise and fully explain what the code does. Respond and write quickly. Remember : write and comment only in markdown format for the code."  
   - Teaser : "Put any code to be commented in the language of your choice."
   - Prompt Hint : "[code to be commented]"
   - Title : "Code Comment Generation"
